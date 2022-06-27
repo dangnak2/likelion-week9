@@ -75,7 +75,7 @@ router.post("/", cors(corsOptions), async(req, res) => {
 //   //id가 postId와 동일한 것 중 한 개만 읽어온다.(글의 존재여부, 작성자 식별을 위함))
 //   const index = await User.findOne({                    
 //     where : {
-//         id : userId
+//         id : userIdy
 //     }
 //   });
 
